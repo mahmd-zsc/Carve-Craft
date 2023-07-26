@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+import "./App.css";
+import Header from "./components/Header";
+import Systems from "./components/Systems";
+import About from "./components/about/About";
+import Bosses from "./components/bosses/bosses";
+import CallUs from "./components/callUs/CallUs";
+import Experience from "./components/experience/Experience";
+import Mission from "./components/mission/mission";
+import Projects from "./components/projects/Projects";
+import Structures from "./components/struchures/Structures";
+import Team from "./components/team/Team";
+import Footer from "./components/footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <About />
+      <Systems />
+      <Mission />
+      <Experience />
+      <Team />
+      <Bosses />
+      <Structures />
+      <Projects />
+      <CallUs />
+      <Footer />
     </div>
   );
 }

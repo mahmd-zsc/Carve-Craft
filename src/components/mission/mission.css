@@ -1,0 +1,13 @@
+.mission .box:first-child {
+  background-color: #e8662b;
+}
+.mission .box:last-of-type {
+  background-color: white;
+  color: black;
+}
+.mission .box:nth-of-type(2) {
+  background-color: #164e63;
+}
+.mission img{
+    height: 100%;
+}

@@ -1,0 +1,10 @@
+.about::after {
+  content: "";
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  background-color: #e8662b;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
